@@ -41,9 +41,9 @@ function App() {
           <input type="text" ref={nameRef} className="myInput" placeholder="Type your name here ..."></input>
           <button type="submit" onClick={AddName} className="myButton">Search</button>
         </form>
-        {isLoading ? <div className="Loading">Sber wahd chwya ...</div> : <>
+        {isLoading ? <div className="Loading">Wait ...</div> : <>
         <div className="nameResult">{Name }</div>
-        <div className="containerResult">{Data.length === 0 ? "Sber wahd chwya ..." : Data.map((each,key) => { return <Flag key={key} data={each} /> } )}</div>
+        <div className="containerResult">{Data.length === 0 ? "Wait ..." : Data.map((each,key) => { return <Flag key={key} data={each} /> } )}</div>
         
         </>}
         <div className="Footer">Made with &#128151; by Ayoub Fadili</div>

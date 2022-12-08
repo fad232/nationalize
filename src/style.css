@@ -35,7 +35,7 @@ body{
     margin: 0 auto;
     border-right: .15em solid violet;
     animation: 
-    typing 3.5s steps(30, end),
+    typing 2s steps(30, end),
     blink-caret .5s step-end infinite;
 }
 @keyframes typing {
@@ -178,6 +178,7 @@ color: #6a4c93;
 .Loading{
     font-size: 35px;
     color: #6a4c93 ;
+
 }
 
 
